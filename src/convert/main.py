@@ -25,8 +25,6 @@ app = typer.Typer(
     add_completion=False,
     invoke_without_command=True,
     help="Convert an ND2 file into per-position TIFF folders.",
-    rich_markup_mode=None,
-    pretty_exceptions_enable=False,
 )
 
 

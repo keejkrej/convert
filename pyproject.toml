@@ -5,6 +5,7 @@ description = "Minimal standalone ND2 to TIFF converter matching mupattern conve
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+  "markdown-it-py<4",
   "nd2>=0.10",
   "numpy>=1.26",
   "rich>=13.7",
