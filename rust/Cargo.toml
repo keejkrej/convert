@@ -2,7 +2,8 @@
 name = "convert-rs"
 version = "0.1.0"
 edition = "2021"
-description = "Standalone ND2 to TIFF converter."
+description = "Rust CLI package for standalone ND2 to TIFF conversion."
+readme = "README.md"
 
 [[bin]]
 name = "convert-rs"
@@ -11,7 +12,7 @@ path = "src/main.rs"
 [dependencies]
 clap = { version = "4.5", features = ["derive"] }
 indicatif = "0.17"
-nd2-rs = { git = "https://github.com/keejkrej/nd2-rs" }
+nd2-rs = { path = "../../nd2-rs" }
 tiff = "0.11"
 
 [dev-dependencies]

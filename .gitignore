@@ -1,4 +1,4 @@
-.venv/
-__pycache__/
-*.egg-info/
-convert-rs/target/
+python/.venv/
+python/**/__pycache__/
+python/*.egg-info/
+rust/target/
